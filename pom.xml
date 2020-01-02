@@ -435,11 +435,11 @@
 
     <distributionManagement>
         <repository>
-            <id>rdc-releases</id>
+            <id>releases</id>
             <url>https://repo.rdc.aliyun.com/repository/117163-release-ftzVOx/</url>
         </repository>
         <snapshotRepository>
-            <id>rdc-snapshots</id>
+            <id>snapshots</id>
             <url>https://repo.rdc.aliyun.com/repository/117163-snapshot-YaLcWB/</url>
         </snapshotRepository>
     </distributionManagement>
@@ -1766,19 +1766,15 @@
     </build>
     <profiles>
         <profile>
-            <id>nexus_enough</id>
+            <id>rdc-private-repo</id>
             <repositories>
                 <repository>
-                    <id>maven-aliyun</id>
-                    <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-                    <releases>
-                        <enabled>true</enabled>
-                    </releases>
-                    <snapshots>
-                        <enabled>true</enabled>
-                        <updatePolicy>always</updatePolicy>
-                        <checksumPolicy>fail</checksumPolicy>
-                    </snapshots>
+                    <id>releases</id>
+                    <url>https://repo.rdc.aliyun.com/repository/117163-release-ftzVOx/</url>
+                </repository>
+                <repository>
+                    <id>snapshots</id>
+                    <url>https://repo.rdc.aliyun.com/repository/117163-snapshot-YaLcWB/</url>
                 </repository>
             </repositories>
         </profile>
