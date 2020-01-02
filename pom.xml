@@ -427,7 +427,7 @@
         <!-- xstream1.4.10有默认java8版本，也有java7版本 -->
         <xstream.version>1.4.10</xstream.version>
         <xmemcached.version>2.4.2</xmemcached.version>
-        <xmlsec.version>2.1.1</xmlsec.version>
+        <xmlsec.version>2.1.4</xmlsec.version>
         <yavijava.version>6.0.05</yavijava.version>
         <springboot-mybatis.version>2.0.1</springboot-mybatis.version>
         <fastDFS.version>1.27-RELEASE</fastDFS.version>
