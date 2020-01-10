@@ -169,7 +169,7 @@
         <cglib.version>3.2.6</cglib.version>
         <commons-beanutils.version>1.9.3</commons-beanutils.version>
         <commons-cli.version>1.4</commons-cli.version>
-        <commons-codec.version>1.11</commons-codec.version>
+        <commons-codec.version>1.13</commons-codec.version>
         <commons-collections.version>3.2.2</commons-collections.version>
         <commons-collections4.version>4.1</commons-collections4.version>
         <commons-compress.version>1.16.1</commons-compress.version>
@@ -281,7 +281,6 @@
             com/sun/xml/bind/v2/model/annotation/AnnotationReader错误. -->
         <jaxbimpl.version>2.2.7</jaxbimpl.version>
         <jaxen.version>1.1.6</jaxen.version>
-        <jedis.version>2.9.0</jedis.version>
         <jersey.version>1.19.4</jersey.version>
         <!-- //TODO: jersey 2.26+依赖rs-api 2.1版本，我们在用的是2.0。 -->
         <jersey2.version>2.26</jersey2.version>
@@ -313,6 +312,9 @@
         <!-- jwebunit 3.3 October 08, 2015 HtmlUnit 2.18, Java 7 -->
         <jwebunit.version>3.3</jwebunit.version>
         <jwt.version>5.10</jwt.version>
+        <!-- redis 相关jar版本-->
+        <jedis.version>2.9.0</jedis.version>
+        <redisson.version>3.11.3</redisson.version>
         <log4j.version>1.2.17</log4j.version>
         <!-- As of version 2.9.1 Log4j supports Java 9 but will still work
             in Java 7 or 8 -->
@@ -1452,6 +1454,11 @@
                 <groupId>redis.clients</groupId>
                 <artifactId>jedis</artifactId>
                 <version>${jedis.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson-spring-boot-starter</artifactId>
+                <version>${redisson.version}</version>
             </dependency>
             <dependency><!-- used by gp -->
                 <groupId>wsdl4j</groupId>
