@@ -152,6 +152,7 @@
         <aliyun-ots.version>2.2.5</aliyun-ots.version>
         <aliyun-sdk-oss.version>${aliyun-oss.version}</aliyun-sdk-oss.version>
         <ant.version>1.10.3</ant.version>
+        <easypoi.version>3.3.0</easypoi.version>
         <apache-poi.version>3.17</apache-poi.version>
         <!-- 1.6 for java6, 1.7 for java7, 1.8 for java8, 1.9 for java9 -->
         <aspectj.version>1.8.13</aspectj.version>
@@ -870,6 +871,11 @@
                 <groupId>org.apache.logging.log4j</groupId>
                 <artifactId>log4j-api</artifactId>
                 <version>${logging.log4j.api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.afterturn</groupId>
+                <artifactId>easypoi-spring-boot-starter</artifactId>
+                <version>${easypoi.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.poi</groupId>
