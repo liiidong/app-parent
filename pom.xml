@@ -141,6 +141,7 @@
         <plugin.surefire.version>${plugin.failsafe.version}</plugin.surefire.version>
         <!-- 2.14,2.15 写入的xml实际编码不是utf-8 -->
         <plugin.tomcat.version>2.2</plugin.tomcat.version>
+        <apache.tomcat.embed.version>[7.0.52,9.0.30)</apache.tomcat.embed.version>
         <plugin.war.version>3.2.1</plugin.war.version>
         <!-- Akka 2.4.14 (Scala 2.11, 2.12 and Java 8+) -->
         <akka24.version>2.4.14</akka24.version>
@@ -1544,6 +1545,12 @@
                 <groupId>org.jboss.resteasy</groupId>
                 <artifactId>resteasy-jackson2-provider</artifactId>
                 <version>3.6.2.Final</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-core -->
+            <dependency>
+                <groupId>org.apache.tomcat.embed</groupId>
+                <artifactId>tomcat-embed-core</artifactId>
+                <version>${apache.tomcat.embed.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
