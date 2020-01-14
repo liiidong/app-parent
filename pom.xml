@@ -165,7 +165,7 @@
         <axis2.version>1.7.6</axis2.version>
         <antisamy.version>1.5.7</antisamy.version>
         <bson4jasckson.version>2.9.0</bson4jasckson.version>
-        <c3p0.version>0.9.5.2</c3p0.version>
+        <c3p0.version>0.9.5.4</c3p0.version>
         <cal10n.version>0.8.1</cal10n.version>
         <cas-client.version>3.5.0</cas-client.version>
         <cglib.version>3.2.6</cglib.version>
