@@ -32,6 +32,6 @@ jobs:
        # Repository that should be deployed to
        repository: https://repo.rdc.aliyun.com/repository/117163-snapshot-YaLcWB
        # The Maven goals to be executed
-       maven-goals: clean deploy
+       maven-goals: deploy
        # Additional Maven command line arguments
        # maven-args: # optional
