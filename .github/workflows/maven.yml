@@ -22,3 +22,16 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Deploy with Maven
+      uses: simontunnat/action-maven-deploy@v1
+      with:
+       # Username that should be used to connect to the repository
+       username: er3Nxf
+       # Password that should be used to connect to the repository
+       password: Tj7Wccbv6k
+       # Repository that should be deployed to
+       repository: https://repo.rdc.aliyun.com/repository/117163-snapshot-YaLcWB
+       # The Maven goals to be executed
+       maven-goals: clean deploy
+       # Additional Maven command line arguments
+       # maven-args: # optional
