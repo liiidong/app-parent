@@ -399,9 +399,10 @@
         <!-- geomesa 2.2.0, ElasticSearch 6.6.1 版本的空间查询等，依赖 spatial4j 0.7版本 -->
         <spatial4j.version>0.7</spatial4j.version> <!-- latesd 0.7 -->
         <spring.version>5.1.6.RELEASE</spring.version>
-        <!-- srping cloud 版本 2.1.9-->
-        <spring.boot.version>2.1.9.RELEASE</spring.boot.version>
+        <!-- srping cloud 版本 2.1.1-->
+        <spring.boot.version>2.1.1.RELEASE</spring.boot.version>
         <spring.cloud.version>Greenwich.RELEASE</spring.cloud.version>
+        <spring-boot-admin.version>2.2.1</spring-boot-admin.version>
         <spring.cloud.kubernetes.version>1.0.1.RELEASE</spring.cloud.kubernetes.version>
         <kubernetes.model.custom.version>4.1.0</kubernetes.model.custom.version>
         <!-- 新版本3.2+，把 spring-asm 已经合并到 core 中了。 -->
@@ -509,11 +510,10 @@
                 <artifactId>spring-cloud-starter-kubernetes-config</artifactId>
                 <version>${spring.cloud.kubernetes.version}</version>
             </dependency>
-
             <dependency>
-                <groupId>com.supermap.gaf.extend</groupId>
-                <artifactId>kubernetes-model</artifactId>
-                <version>${kubernetes.model.custom.version}</version>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-dependencies</artifactId>
+                <version>${spring-boot-admin.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
