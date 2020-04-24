@@ -400,7 +400,8 @@
         <spatial4j.version>0.7</spatial4j.version> <!-- latesd 0.7 -->
         <spring.version>5.1.6.RELEASE</spring.version>
         <!-- srping cloud 版本 <= 2.1.4-->
-        <spring.boot.version>(,2.1.4.RELEASE]</spring.boot.version>
+        <!--        <spring.boot.version>[1.5.0.RELEASE,2.1.4.RELEASE]</spring.boot.version>-->
+        <spring.boot.version>2.1.4.RELEASE</spring.boot.version>
         <spring.cloud.version>Greenwich.RELEASE</spring.cloud.version>
         <spring.cloud.kubernetes.version>1.0.1.RELEASE</spring.cloud.kubernetes.version>
         <kubernetes.model.custom.version>4.1.0</kubernetes.model.custom.version>
@@ -435,6 +436,7 @@
         <yavijava.version>6.0.05</yavijava.version>
         <springboot-mybatis.version>2.0.1</springboot-mybatis.version>
         <fastDFS.version>1.27-RELEASE</fastDFS.version>
+        <hutool.version>5.3.2</hutool.version>
     </properties>
 
     <distributionManagement>
@@ -1551,6 +1553,11 @@
                 <groupId>org.apache.tomcat.embed</groupId>
                 <artifactId>tomcat-embed-core</artifactId>
                 <version>${apache.tomcat.embed.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
