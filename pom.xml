@@ -209,7 +209,7 @@
         <expect4j.version>1.6</expect4j.version>
         <fastjson.version>1.2.47</fastjson.version>
         <fastjson.android.version>1.1.52.android</fastjson.android.version>
-        <druid.version>1.1.10</druid.version>
+        <druid.version>1.1.17</druid.version>
         <!-- https://github.com/FluentLenium/FluentLenium -->
         <!-- Selenium 3 and Java 8 are required to run it. -->
         <fluentlenium.version>3.5.2</fluentlenium.version>
@@ -402,6 +402,7 @@
         <!-- srping cloud 版本 2.1.1-->
         <spring.boot.version>2.1.1.RELEASE</spring.boot.version>
         <spring.cloud.version>Greenwich.RELEASE</spring.cloud.version>
+        <spring-cloud-config.version>2.1.1.RELEASE</spring-cloud-config.version>
         <spring-boot-admin.version>2.2.1</spring-boot-admin.version>
         <spring-boot-security.version>2.2.1</spring-boot-security.version>
         <spring.cloud.kubernetes.version>1.0.1.RELEASE</spring.cloud.kubernetes.version>
@@ -561,9 +562,13 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-config-server</artifactId>
-                <version>${spring.cloud.version}</version>
+                <version>${spring-cloud-config.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-config</artifactId>
+                <version>${spring-cloud-config.version}</version>
+            </dependency>
             <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jdbc -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
