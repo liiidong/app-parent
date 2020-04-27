@@ -402,7 +402,7 @@
         <!-- srping cloud 版本 2.1.1-->
         <spring.boot.version>2.1.1.RELEASE</spring.boot.version>
         <spring.cloud.version>Greenwich.RELEASE</spring.cloud.version>
-        <spring-cloud-config.version>2.1.1.RELEASE</spring-cloud-config.version>
+        <spring-cloud-config.version>2.2.2.RELEASE</spring-cloud-config.version>
         <spring-boot-admin.version>2.2.1</spring-boot-admin.version>
         <spring-boot-security.version>2.2.1</spring-boot-security.version>
         <spring.cloud.kubernetes.version>1.0.1.RELEASE</spring.cloud.kubernetes.version>
