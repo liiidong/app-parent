@@ -20,5 +20,14 @@ jobs:
       uses: actions/setup-java@master
       with:
         java-version: 1.8
+        server-id: snapshots
+        server-username: er3Nxf
+        server-password: Tj7Wccbv6k
+     
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Publish package
+      run: mvn -B deploy
+      env:
+        MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
+        MAVEN_PASSWORD: ${{ secrets.OSSRH_TOKEN }}
