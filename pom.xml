@@ -1850,11 +1850,11 @@
             <id>rdc-private-repo</id>
             <repositories>
                 <repository>
-                    <id>releases</id>
+                    <id>rdc-releases</id>
                     <url>https://repo.rdc.aliyun.com/repository/117163-release-ftzVOx/</url>
                 </repository>
                 <repository>
-                    <id>snapshots</id>
+                    <id>rdc-snapshots</id>
                     <url>https://repo.rdc.aliyun.com/repository/117163-snapshot-YaLcWB/</url>
                 </repository>
             </repositories>
