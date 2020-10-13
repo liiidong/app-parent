@@ -306,7 +306,7 @@
         <jstl.version>1.2</jstl.version>
         <jts-old.version>1.13</jts-old.version> <!-- 要逐步废弃，改为使用 locationtech-jts包. -->
         <jts-locationtech.version>1.16.0</jts-locationtech.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <!-- jwebunit 3.3 October 08, 2015 HtmlUnit 2.18, Java 7 -->
         <jwebunit.version>3.3</jwebunit.version>
         <jwt.version>5.10</jwt.version>
