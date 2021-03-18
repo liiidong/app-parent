@@ -200,7 +200,7 @@
             We plan on deprecating the TransportClient in Elasticsearch 7.0 and removing
             it completely in 8.0. Instead, you should be using the Java High Level REST
             Client. -->
-        <elasticsearch.version>6.6.1</elasticsearch.version>
+        <elasticsearch.version>6.8.13</elasticsearch.version>
         <elasticsearch-client.version>6.6.1</elasticsearch-client.version>
         <expect4j.version>1.6</expect4j.version>
         <fastjson.version>1.2.47</fastjson.version>
