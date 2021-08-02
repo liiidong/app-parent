@@ -159,7 +159,7 @@
         <!-- //TODO: assertj 2.x/3.x和1.x的API有区别 -->
         <assertj.version>1.7.1</assertj.version>
         <axis2.version>1.7.6</axis2.version>
-        <antisamy.version>1.5.7</antisamy.version>
+        <antisamy.version>1.6.4</antisamy.version>
         <bson4jasckson.version>2.9.0</bson4jasckson.version>
         <c3p0.version>0.9.5.2</c3p0.version>
         <cal10n.version>0.8.1</cal10n.version>
