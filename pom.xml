@@ -299,7 +299,7 @@
         <jmagick.version>6.6.9</jmagick.version>
         <jongo.version>0.2</jongo.version>
         <jose4j.version>0.6.3</jose4j.version>
-        <jsoup.version>1.11.3</jsoup.version>
+        <jsoup.version>1.14.2</jsoup.version>
         <json-api.version>1.1.2</json-api.version> <!-- JSR 374 (JSON Processing) API -->
         <json-lib.version>2.4</json-lib.version>
         <jsonassert.version>1.5.0</jsonassert.version>
