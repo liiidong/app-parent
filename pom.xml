@@ -428,7 +428,7 @@
         <xmlunit2.version>2.6.0</xmlunit2.version>
         <xmlunit.version>1.6</xmlunit.version>
         <!-- xstream1.4.10有默认java8版本，也有java7版本 -->
-        <xstream.version>1.4.10</xstream.version>
+        <xstream.version>1.4.18</xstream.version>
         <xmemcached.version>2.4.2</xmemcached.version>
         <xmlsec.version>2.1.1</xmlsec.version>
         <yavijava.version>6.0.05</yavijava.version>
