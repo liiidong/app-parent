@@ -316,7 +316,7 @@
         <log4j.version>1.2.17</log4j.version>
         <!-- As of version 2.9.1 Log4j supports Java 9 but will still work
             in Java 7 or 8 -->
-        <logging.log4j.api.version>2.8.2</logging.log4j.api.version>
+        <logging.log4j.api.version>2.15.0</logging.log4j.api.version>
         <logback.version>1.2.3</logback.version> <!--不要使用，logback 和 log4j 只能二选一。 -->
         <!-- lucene 7基于java8 (出处：http://lucene.apache.org/core/7_6_0/SYSTEM_REQUIREMENTS.html) -->
         <!-- es-transport客户端依赖es包，es 6.6.1 在代码里面明确要求使用 lucene 7.6.0 -->
