@@ -354,7 +354,7 @@
         <!-- pac4j 相关依赖 start -->
         <buji-pac4j.version>4.0.0</buji-pac4j.version>
         <openstack4j.version>3.1.0</openstack4j.version>
-        <pac4j.version>3.3.0</pac4j.version>
+        <pac4j.version>5.2.0</pac4j.version>
         <!-- pac4j 相关依赖 end -->
         <perf4j.version>0.9.16</perf4j.version>
         <phantomjsdriver.version>1.4.4</phantomjsdriver.version>
