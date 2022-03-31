@@ -394,7 +394,7 @@
         <sparkjava.version>2.7.1</sparkjava.version> <!-- unused -->
         <!-- geomesa 2.2.0, ElasticSearch 6.6.1 版本的空间查询等，依赖 spatial4j 0.7版本 -->
         <spatial4j.version>0.7</spatial4j.version> <!-- latesd 0.7 -->
-        <spring.version>5.1.6.RELEASE</spring.version>
+        <spring.version>5.3.18</spring.version>
         <!-- srping cloud 版本 2.1.1-->
         <spring.boot.version>2.1.1.RELEASE</spring.boot.version>
         <spring.cloud.version>Greenwich.RELEASE</spring.cloud.version>
