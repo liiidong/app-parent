@@ -150,7 +150,7 @@
         <aliyun-sdk-oss.version>${aliyun-oss.version}</aliyun-sdk-oss.version>
         <ant.version>1.10.3</ant.version>
         <easypoi.version>3.3.0</easypoi.version>
-        <apache-poi.version>3.17</apache-poi.version>
+        <apache-poi.version>4.1.1</apache-poi.version>
         <!-- 1.6 for java6, 1.7 for java7, 1.8 for java8, 1.9 for java9 -->
         <aspectj.version>1.8.13</aspectj.version>
         <!-- AssertJ 2.x requires Java 7 or higher (use the org.assertj.core.api.Java6Assertions
