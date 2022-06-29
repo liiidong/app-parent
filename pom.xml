@@ -388,7 +388,7 @@
         <shoal.version>1.6.52</shoal.version>
         <sigar.version>1.6.4</sigar.version>
         <simple-xml.version>2.7.1</simple-xml.version>
-        <slf4j.version>1.7.25</slf4j.version>
+        <slf4j.version>1.7.26</slf4j.version>
         <smiley-http-proxy-servlet.version>1.9</smiley-http-proxy-servlet.version>
         <spark.version>2.3.2</spark.version>
         <sparkjava.version>2.7.1</sparkjava.version> <!-- unused -->
