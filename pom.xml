@@ -383,7 +383,7 @@
             (mandatory). Those will work with any Java >= 8. -->
         <selenium.version>3.12.0</selenium.version>
         <!-- //TODO: shiro 1.4.0 还在使用xmlsec的1.4.3版本 -->
-        <shiro.version>1.4.0</shiro.version>
+        <shiro.version>1.9.1</shiro.version>
         <shiro-freemarker.version>1.0.0</shiro-freemarker.version>
         <shoal.version>1.6.52</shoal.version>
         <sigar.version>1.6.4</sigar.version>
